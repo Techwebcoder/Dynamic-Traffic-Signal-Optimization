@@ -1,0 +1,8 @@
+pip install -r requirements.txt
+
+python main.py -m fc -e 10 -r
+
+-m METHOD 
+Where METHOD is one of the following options: 
+fc, lqf, qlearning, search. 
+-e NUMBER-OF-EPISODES 
